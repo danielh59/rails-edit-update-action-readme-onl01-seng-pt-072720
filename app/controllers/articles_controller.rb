@@ -13,10 +13,10 @@ class ArticlesController < ApplicationController
 
   def edit
   end
-   
+
   def update
   end
-  
+
   def create
     @article = Article.new
     @article.title = params[:title]
