@@ -11,6 +11,12 @@ class ArticlesController < ApplicationController
     @article = Article.new
   end
 
+  def edit
+  end
+   
+  def update
+  end
+  
   def create
     @article = Article.new
     @article.title = params[:title]
